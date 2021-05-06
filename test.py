@@ -1,3 +1,4 @@
-from hackip import *
+from hackip import my_ip_location
+import hackip
 
-print(main())
+print(dir(hackip))

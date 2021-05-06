@@ -4,6 +4,7 @@ Hack_IP.egg-info/PKG-INFO
 Hack_IP.egg-info/SOURCES.txt
 Hack_IP.egg-info/dependency_links.txt
 Hack_IP.egg-info/entry_points.txt
+Hack_IP.egg-info/requires.txt
 Hack_IP.egg-info/top_level.txt
 hackip/__init__.py
 hackip/__main__.py

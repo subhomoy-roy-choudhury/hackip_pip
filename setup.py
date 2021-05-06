@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="Hack_IP",
-    version="1.0.3",
+    version="1.0.4",
     description= DESCRIPTION,
     long_description = README,
     long_description_content_type="text/markdown",
@@ -24,7 +24,7 @@ setup(
         ],
     packages=['hackip'],
     include_package_data=True,
-    install_requires=[],
+    install_requires=['colorama','pyfiglet','termcolor','psutil','requests','maxminddb-geolite2'],
     entry_points={
         "console_scripts": [
             "hackip=hackip.__main__:main",
