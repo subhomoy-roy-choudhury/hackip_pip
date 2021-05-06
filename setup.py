@@ -10,12 +10,13 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="Hack_IP",
-    version="1.0.5",
+    version="1.0.6",
     description= DESCRIPTION,
     long_description = README,
     long_description_content_type="text/markdown",
     author="Subhomoy Roy Choudhury",
     author_email = "subhomoyrchoudhury@gmail.com",
+    url="https://github.com/subhomoy-roy-choudhury/Hack_IP",
     license="MIT",
     classifiers=[
             "License :: OSI Approved :: MIT License",

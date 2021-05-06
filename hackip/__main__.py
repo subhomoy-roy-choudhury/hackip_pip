@@ -77,8 +77,8 @@ def main():
                     print('FQDN', fqdn)
                     print(socket.gethostbyname_ex(hostname)) # Return a triple (hostname, aliaslist, ipaddrlist)
                     print('Public IP address : {}'.format(ip))
-                    print('Private IP Address : ', socket.gethostbyname_ex(hostname)[-1][-1])
                     my_ip_location(ip)
+                    print('Private IP Address : ', socket.gethostbyname_ex(hostname)[-1][-1])
 
                 except :
                     print(Fore.RED + 'error while getting IP address or invalid hostname!')
@@ -113,8 +113,8 @@ def main():
                     print('FQDN', fqdn)
                     print(socket.gethostbyname_ex(hostname)) # Return a triple (hostname, aliaslist, ipaddrlist)
                     print('Public IP address : {}'.format(ip))
-                    print(f'Private IP Address : {strings[-2]}')
                     my_ip_location(ip)
+                    print(f'Private IP Address : {strings[-2]}')
 
                 except :
                     print(Fore.RED + 'error while getting IP address or invalid hostname!')
@@ -149,8 +149,8 @@ def main():
                     print('FQDN', fqdn)
                     print(socket.gethostbyname_ex(hostname)) # Return a triple (hostname, aliaslist, ipaddrlist)
                     print('Public IP address : {}'.format(ip))
-                    print(f'Private IP Address : {strings[-2]}')
                     my_ip_location(ip)
+                    print(f'Private IP Address : {strings[-2]}')
 
                 except :
                     print(Fore.RED + 'error while getting IP address or invalid hostname!')
