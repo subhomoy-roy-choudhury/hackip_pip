@@ -1,0 +1,3 @@
+[console_scripts]
+hackip = hackip.__main__:main
+
