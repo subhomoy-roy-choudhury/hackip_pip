@@ -11,7 +11,7 @@ from requests import get
 from geolite2 import geolite2
 
 
-class hack_ip:
+class Achha:
     def __init__(self):
         print("Hack_IP")
 
@@ -20,7 +20,7 @@ class hack_ip:
         return number
 
     # Location Tracker
-    def my_ip_location(self,my_ip):
+    def my_ip_location(my_ip):
         reader = geolite2.reader()
         location = reader.get(my_ip)
 

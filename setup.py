@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="Hack_IP",
-    version="1.0.4",
+    version="1.0.5",
     description= DESCRIPTION,
     long_description = README,
     long_description_content_type="text/markdown",
