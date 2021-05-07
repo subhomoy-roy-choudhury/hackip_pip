@@ -9,7 +9,17 @@ https://github.com/subhomoy-roy-choudhury/Hack_IP
  > pip install Hack_IP 
  > hackip
 ```
+# Usage :-
+1. Inorder to find location of any public IP Address . 
+```
+from hackip import hack_ip
+from requests import get
 
+ip = get('https://api.ipify.org').text
+print(ip)
+a = hack_ip()
+print(a.my_ip_location(ip))
+```
 # LICENSE :- 
 
 Copyright (c) 2018 The Python Packaging Authority
