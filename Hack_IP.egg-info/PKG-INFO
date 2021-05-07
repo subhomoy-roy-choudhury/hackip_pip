@@ -1,14 +1,37 @@
 Metadata-Version: 2.1
 Name: Hack-IP
-Version: 1.0.6
+Version: 1.0.7
 Summary: This is a tool to get ip and system of a specific device
 Home-page: https://github.com/subhomoy-roy-choudhury/Hack_IP
 Author: Subhomoy Roy Choudhury
 Author-email: subhomoyrchoudhury@gmail.com
 License: MIT
-Description: This is a tool to get ip and system of a specific device
+Description: This is a command line tool which is used to gather system info and ipaddress and location of any user .
         
-        LICENSE :- 
+        # Contribution :- 
+        The main project is in this github  repository 
+        https://github.com/subhomoy-roy-choudhury/Hack_IP
+        
+        # Installation :-
+        ```
+         > pip install Hack_IP 
+         > hackip
+        ```
+        # Usage :-
+        1. Inorder to find location of any public IP Address . 
+        ```
+        from hackip import hack_ip
+        from requests import get
+        
+        ip = get('https://api.ipify.org').text
+        print(ip)
+        a = hack_ip()
+        print(a.my_ip_location(ip))
+        ```
+        # Scrrenshot :-
+        ![scrrenshot](Hack_IP_mobile_screenshot.jpeg)
+        
+        # LICENSE :- 
         
         Copyright (c) 2018 The Python Packaging Authority
         
@@ -29,8 +52,10 @@ Description: This is a tool to get ip and system of a specific device
         LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
         OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
         SOFTWARE.
+        
 Platform: UNKNOWN
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
 Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
 Description-Content-Type: text/markdown

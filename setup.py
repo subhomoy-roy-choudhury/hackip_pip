@@ -10,7 +10,7 @@ README = (HERE / "README.md").read_text()
 
 setup(
     name="Hack_IP",
-    version="1.0.6",
+    version="1.0.7",
     description= DESCRIPTION,
     long_description = README,
     long_description_content_type="text/markdown",
@@ -22,6 +22,7 @@ setup(
             "License :: OSI Approved :: MIT License",
             "Programming Language :: Python :: 3",
             "Programming Language :: Python :: 3.7",
+            "Programming Language :: Python :: 3.8",
         ],
     packages=['hackip'],
     include_package_data=True,
