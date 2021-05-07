@@ -1,6 +1,16 @@
-This is a tool to get ip and system of a specific device
+This is a command line tool which is used to gather system info and ipaddress and location of any user .
 
-LICENSE :- 
+# Contribution :- 
+The main project is in this github  repository 
+https://github.com/subhomoy-roy-choudhury/Hack_IP
+
+# Installation :-
+```
+ > pip install Hack_IP 
+ > hackip
+```
+
+# LICENSE :- 
 
 Copyright (c) 2018 The Python Packaging Authority
 
